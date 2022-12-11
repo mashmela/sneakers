@@ -1,0 +1,47 @@
+.bagItem {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  border-bottom: solid 1px #f0f0fc;
+  justify-content: space-between;
+}
+
+.itemInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.bagItem img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.bagItemText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #8f8f9b;
+}
+
+.bagItemText div:first-child {
+  font-weight: 800;
+  color: #1e2229;
+}
+
+.buttonDelete {
+  border-radius: 20px;
+  background: #f0f0fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #8f8f9b;
+  cursor: pointer;
+}
+
+.buttonDelete:hover {
+  color: white;
+  background: #1e2229;
+  transition: all 0.15s ease-in-out;
+}

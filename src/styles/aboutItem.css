@@ -1,0 +1,93 @@
+.aboutItem {
+  display: flex;
+  gap: 20px;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.aboutItemText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sizes {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f0fc;
+  border-radius: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sizes img {
+  width: 10px;
+  height: 19px;
+}
+
+.select-container {
+  position: relative;
+}
+
+.popup-container {
+  font-size: 20px;
+  background: #f0f0fc;
+  border-radius: 24px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 8px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.popup-container li {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+.option-active {
+  background: #d0d0ff;
+}
+
+.popup-container li:hover {
+  background: #ffffff;
+}
+
+.button {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: none;
+  border-radius: 24px;
+  border: solid 1px black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  transition: all 0.15s ease-in-out;
+  color: #3a3ad1;
+  border: solid 1px #3a3ad1;
+}
+
+.button:active {
+  transition: all 0.15s ease-in-out;
+  background: #7d7de7;
+  color: white;
+}
+
+.errorSize {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+}
